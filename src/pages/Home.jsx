@@ -24,14 +24,13 @@ const Home = () => {
     const [result, setResult] = useState({})
 
     return (
-        <><Component>
+        <Component>
             <Image></Image>
             <Box style={{ width: '73%', height: '80%' }}>
                 <Form setResult={setResult} />
                 <Information result={result} />
             </Box>
-        </Component><Box>
-            <marquee>Developed by Pradeep</marquee></Box></>
+        </Component>
     )
 }
 
